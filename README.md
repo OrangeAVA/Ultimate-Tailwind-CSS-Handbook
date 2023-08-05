@@ -1,2 +1,2 @@
-# TailwindCSS-An-Interactive-Approach
-TailwindCSS – An Interactive Approach, published by Orange, AVA™
+# Ultimate Tailwind CSS Handbook
+Ultimate Tailwind CSS Handbook, published by Orange, AVA™
