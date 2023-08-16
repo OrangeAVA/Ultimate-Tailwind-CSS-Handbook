@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card-design {
+      @apply   w-44 h-64 bg-gray-200 rounded-md z-40 shadow-lg hover:shadow-2xl 
+  origin-bottom-left hover:shadow-gray-500 border border-gray-400/30;
+    }
+    .card-text {
+      @apply p-3 flex items-start justify-end text-2xl font-semibold;
+    }
+    .img-design {
+        @apply w-32 h-32 rounded-full object-cover border border-white hover:z-[60] 
+        hover:shadow-xl hover:shadow-gray-700 hover:scale-125;
+    }
+    .box1 {
+        @apply w-20 h-20 bg-pink-500 group-hover:bg-green-400 transition-all;
+    }
+    .box2 {
+        @apply w-20 h-20 bg-green-400 group-hover:bg-pink-500 transition-all;
+    }
+        
+  }
+  

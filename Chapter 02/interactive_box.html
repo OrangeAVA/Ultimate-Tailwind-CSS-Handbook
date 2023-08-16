@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- resize browser window to observe different color on box element -->
+    <main>
+        <div class="flex justify-center w-40" id="parentDiv">
+            <div class="flex flex-col">
+                <div class="flex justify-center">
+                    <div class="h-10 w-10 bg-green-400 dark:bg-red-500"></div>
+                </div>
+                <button class="bg-blue-400 mt-5" onclick="changeMode()">
+                    change mode
+                </button>
+            </div>
+        </div>
+
+    </main>
+    <script>
+        function changeMode() {
+            var element = document.getElementById('parentDiv')
+            if (element.classList.contains('dark')) {
+                element.classList.remove('dark')
+            } else {
+                element.classList.add('dark')
+            }
+        }
+
+    </script>
+</body>
+
+</html>
